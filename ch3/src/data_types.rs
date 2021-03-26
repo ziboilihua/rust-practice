@@ -29,7 +29,7 @@ pub fn demo() {
     a.2 = false;
     println!("   元组类型 {}", a.2);
     println!("  数组类型(一旦创建长度不可改变)");
-    let a = [2; 10];
+    let _a = [2; 10];
     let a = [1, 2, 3];
     println!("   {}", a[0]);
 }
